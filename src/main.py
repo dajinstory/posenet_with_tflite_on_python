@@ -179,7 +179,8 @@ if __name__ =="__main__":
 
 
 	# TFLITE INTERPRETER CON.
-	interpreter = tf.contrib.lite.Interpreter(path_1)
+	#interpreter = tf.contrib.lite.Interpreter(path_1)
+	interpreter = tf.lite.Interpreter(path_1)
 	interpreter.allocate_tensors()
 
 
